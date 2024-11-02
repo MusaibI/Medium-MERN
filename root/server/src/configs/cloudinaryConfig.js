@@ -5,9 +5,9 @@ dotenv.config();
 
 const cloudinaryConfig = (req, res, next) => {
 	config({
-		cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-		api_key: process.env.CLOUDINARY_API_KEY,
-		api_secret: process.env.CLOUDINARY_API_SECRET,
+		cloud_name: "dfzyw3v5v",
+		api_key: "615558984545478",
+		api_secret: "J1DPVAWZEproZW6Og7OEirlvS_w",
 	});
 	next();
 };
